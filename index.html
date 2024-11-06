@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moshood Adisa - Resume</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome for icons -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <!-- External CSS file -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1>MOSHOOD ADISA</h1>
+        <p>Leicester | E-mail: moshood.adisa01@gmail.com | Mobile: 07733746313</p>
+        
+    </header>
+
+    <!-- Profile Summary -->
+    <section id="profile-summary" class="fade-in">
+        <h2>Profile Summary</h2>
+        <p>Professional with over 5 years of experience in providing technical support and managing IT systems, with a focus on Windows environments. Skilled in troubleshooting, user management, and system security, with expertise in both desk-side and remote support, cloud technologies, IT security, and customer service.</p>
+    </section>
+
+    <!-- Professional Experience -->
+    <section id="experience" class="fade-in">
+        <h2>Professional Experience</h2>
+        
+        <article>
+            <h3>Little Fish Limited - Service Desk Engineer</h3>
+            <p><small>August 2023 – Present</small></p>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">Windows server administration, managing user access, devices, and security policies.</li>
+                <li class="list-group-item">Supported end-user devices and virtual desktops through Microsoft Intune.</li>
+                <li class="list-group-item">Diagnosed system and infrastructure issues to ensure minimal downtime.</li>
+                <li class="list-group-item">Administered Microsoft Azure environments, including VMs, storage, and network security configurations.</li>
+                <li class="list-group-item">Ensured compliance and security with Endpoint Manager, deploying patches and monitoring vulnerabilities.</li>
+                <li class="list-group-item">Created technical documentation to enhance team efficiency.</li>
+                <li class="list-group-item">Participated in on-call rotation for out-of-hours support.</li>
+            </ul>
+        </article>
+
+        <article>
+            <h3>The KinglinksMedia - IT Support Engineer</h3>
+            <p><small>August 2017 – July 2021</small></p>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">Managed installation, configuration, and troubleshooting of systems.</li>
+                <li class="list-group-item">Conducted system checks, ensuring optimal performance and security compliance.</li>
+                <li class="list-group-item">Resolved network connectivity issues within internal networks.</li>
+                <li class="list-group-item">Developed technical documentation for team operations.</li>
+                <li class="list-group-item">Supported end-users with hardware and software issues.</li>
+                <li class="list-group-item">Assisted in network security implementation, including firewall and antivirus configuration.</li>
+            </ul>
+        </article>
+    </section>
+
+    <!-- Technical Skills -->
+    <section id="skills" class="fade-in">
+        <h2>Technical Skills</h2>
+        <div class="skills">
+            <p><strong>Operating Systems:</strong> Windows Server (2012 R2, 2016), Linux</p>
+            <p><strong>Cloud Computing:</strong> Microsoft Azure, Azure AD</p>
+            <p><strong>Virtualization:</strong> Hyper-V</p>
+            <p><strong>Device Management:</strong> Microsoft Intune</p>
+            <p><strong>Backup Solutions:</strong> Azure Backup, Veeam</p>
+            <p><strong>Networking:</strong> DNS, DHCP, TCP/IP, VPN</p>
+            <p><strong>Security Tools:</strong> BitLocker, MFA, Firewalls</p>
+            <p><strong>Scripting:</strong> PowerShell, Bash</p>
+            <p><strong>Monitoring Tools:</strong> Azure monitoring suite</p>
+            <p><strong>Helpdesk Tools:</strong> ServiceNow</p>
+        </div>
+    </section>
+
+    <!-- Soft Skills -->
+    <section id="soft-skills" class="fade-in">
+        <h2>Soft Skills</h2>
+        <div class="soft-skills">
+            <p>Effective communication</p>
+            <p>Time Management</p>
+            <p>Interpersonal skills</p>
+            <p>Leadership</p>
+            <p>Reporting and Documentation</p>
+            <p>Team collaboration</p>
+            <p>Adaptability</p>
+            <p>Resilience</p>
+        </div>
+    </section>
+
+    <!-- Educational Background -->
+    <section id="education" class="fade-in">
+        <h2>Educational Background</h2>
+        <p><strong>De Montfort University</strong> | MSc Computing | 2022 – 2023</p>
+        <p><strong>Ladoke Akintola University of Technology</strong> | B. Tech Computer Science | 2013 – 2020</p>
+    </section>
+
+    <!-- Certifications -->
+    <section id="certifications" class="fade-in">
+        <h2>Certifications & Other</h2>
+        <ul class="list-group list-group-flush">
+            <li class="list-group-item">Certified in Cybersecurity</li>
+            <li class="list-group-item">Microsoft Certified: Azure Fundamentals</li>
+            <li class="list-group-item">Microsoft Certified: Azure Administrator Associate</li>
+        </ul>
+    </section>
+
+
+    <!-- JavaScript for animations -->
+    <script>
+        // Slide-in animation
+        document.addEventListener("DOMContentLoaded", () => {
+            const elements = document.querySelectorAll(".fade-in");
+            elements.forEach((el, index) => {
+                setTimeout(() => {
+                    el.classList.add("visible");
+                }, index * 150);
+            });
+        });
+
+        // Download Resume function
+        function downloadResume() {
+            alert("Resume download functionality coming soon!");
+        }
+    </script>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
